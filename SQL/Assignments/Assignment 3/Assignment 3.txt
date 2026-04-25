@@ -1,0 +1,141 @@
+ use Assignment2
+
+
+ -- 1. Retrieve a list of MANAGERS.
+
+SELECT *
+FROM EMP
+WHERE Job IN (
+    SELECT Job
+    FROM EMP
+    WHERE Job = 'MANAGER'
+);
+
+-- 2. Find out the names and salaries of all employees earning more than 1000 per month.
+
+SELECT * 
+FROM EMP
+WHERE Sal > 1000;
+
+-- 3. Display the names and salaries of all employees except JAMES.
+
+SELECT Ename, Sal
+FROM EMP
+WHERE Ename <> 'JAMES';
+
+-- 4. Find out the details of employees whose names begin with ‘S’. 
+
+SELECT *
+FROM EMP
+WHERE Ename LIKE 'S%';
+
+-- 5. Find out the names of all employees that have ‘A’ anywhere in their name. 
+
+SELECT Ename
+FROM EMP
+WHERE Ename LIKE '%A%';
+
+--6. Find out the names of all employees that have ‘L’ as their third character in their name. 
+
+SELECT Ename
+FROM EMP
+WHERE Ename LIKE '__L%';
+
+-- 7. Compute daily salary of JONES.
+
+SELECT
+    Ename,
+    Sal / 30 AS DailySalary
+FROM EMP
+WHERE Ename = 'JONES';
+
+-- 8. Calculate the total monthly salary of all employees. 
+
+
+SELECT SUM(Sal) AS TotalMonthlySalary
+FROM EMP;
+
+
+-- 9. Print the average annual salary . 
+
+SELECT AVG(Sal * 12) AS AverageAnnualSalary
+FROM EMP;
+
+-- 10. Select the name, job, salary, department number of all employees except SALESMAN from department number 30. 
+
+SELECT Ename, Job, Sal, Deptno
+FROM EMP
+WHERE Deptno = 30
+  AND Job <> 'SALESMAN';
+
+
+-- 11. List unique departments of the EMP table. 
+
+SELECT DISTINCT Deptno
+FROM EMP;
+
+
+-- 12. List the name and salary of employees who earn more than 1500 and are in department 10 or 30. Label the columns Employee and Monthly Salary respectively.
+
+
+SELECT 
+    Ename AS Employee,
+    Sal AS [Monthly Salary]
+FROM EMP
+WHERE Sal > 1500
+  AND Deptno IN (10, 30);
+
+
+
+-- 13. Display the name, job, and salary of all the employees whose job is MANAGER or ANALYST and their salary is not equal to 1000, 3000, or 5000. 
+
+SELECT Ename, Job, Sal
+FROM EMP
+WHERE Job IN ('MANAGER', 'ANALYST')
+AND Sal NOT IN (1000, 3000, 5000);
+
+
+-- 14. Display the name, salary and commission for all employees whose commission amount is greater than their salary increased by 10%.
+
+
+SELECT Ename, Sal, Comm
+FROM EMP
+WHERE Comm IS NOT NULL
+AND Comm > Sal + (Sal * 10.0 / 100);
+
+-- 15. Display the name of all employees who have two Ls in their name and are in department 30 or their manager is 7782. 
+
+SELECT Ename
+FROM EMP
+WHERE Ename LIKE '%L%L%'
+AND (Deptno = 30 OR Mgr = 7782);
+
+-- 16. Display the names of employees with experience of over 30 years and under 40 yrs.Count the total number of employees. 
+
+SELECT Ename
+FROM EMP
+WHERE DATEDIFF(YEAR, Hiredate, GETDATE()) > 30
+AND DATEDIFF(YEAR, Hiredate, GETDATE()) < 40;
+
+
+-- 17. Retrieve the names of departments in ascending order and their employees in descending order.
+
+
+SELECT 
+    D.Dname AS DepartmentName,
+    E.Ename AS EmployeeName
+FROM DEPT D
+JOIN EMP E
+    ON D.Deptno = E.Deptno
+ORDER BY 
+    D.Dname ASC,
+    E.Ename DESC;
+
+
+-- 18. Find out experience of MILLER. 
+
+SELECT
+    Ename,
+    DATEDIFF(YEAR, Hiredate, GETDATE()) AS ExperienceInYears
+FROM EMP
+WHERE Ename = 'MILLER';
