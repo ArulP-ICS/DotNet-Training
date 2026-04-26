@@ -1,0 +1,119 @@
+CREATE DATABASE Assignment4
+
+use Assignment4
+
+-- 1.Write a T-SQL Program to find the factorial of a given number.
+
+CREATE OR ALTER PROCEDURE sp_Factorial
+    @Num INT
+AS
+BEGIN
+    DECLARE @Fact BIGINT = 1;
+
+    WHILE @Num > 0
+    BEGIN
+        SET @Fact = @Fact * @Num;
+        SET @Num = @Num - 1;
+    END
+
+    PRINT 'Factorial is ' + CAST(@Fact AS VARCHAR(20));
+END;
+
+EXEC sp_Factorial 5;
+
+
+-- 2.	Create a stored procedure to generate multiplication table that accepts a number and generates up to a given number.
+
+CREATE OR ALTER PROCEDURE sp_MultiplicationTable
+    @Number INT,  
+    @Limit  INT    
+AS
+BEGIN
+    DECLARE @i INT = 1;
+
+    WHILE @i <= @Limit
+    BEGIN
+        PRINT CAST(@Number AS VARCHAR(10)) + ' x ' 
+            + CAST(@i AS VARCHAR(10)) + ' = ' 
+            + CAST(@Number * @i AS VARCHAR(20));
+        
+        SET @i = @i + 1;
+    END
+END;
+
+EXEC sp_MultiplicationTable 5, 10;
+
+ -- Create the Student Table
+
+CREATE TABLE Student (Sid INT,
+Sname VARCHAR(20) );
+
+
+-- Insert Values into Student Table
+
+INSERT INTO Student VALUES
+(1, 'Jack'),
+(2, 'Rithvik'),
+(3, 'Jaspreeth'),
+(4, 'Praveen'),
+(5, 'Bisa'),
+(6, 'Suraj');
+
+SELECT * FROM Student;
+
+-- Create the Marks Table
+
+CREATE TABLE Marks (
+    Mid   INT,
+    Sid   INT,
+    Score INT,  
+);
+
+-- Insert Values into Marks Table
+
+INSERT INTO Marks VALUES
+(1, 1, 23),
+(2, 6, 95),
+(3, 4, 98),
+(4, 2, 17),
+(5, 3, 53),
+(6, 5, 13);
+
+SELECT * FROM Marks
+
+
+-- 3. Create a function to calculate the status of the student. If student score >=50 then pass, else fail. Display the data neatly
+
+
+CREATE OR ALTER FUNCTION fn_StudentStatus (@Score INT)
+RETURNS VARCHAR(10)
+AS
+BEGIN
+    DECLARE @Status VARCHAR(10);
+
+    IF @Score >= 50
+    BEGIN
+        SET @Status = 'PASS';
+    END
+    ELSE
+    BEGIN
+        SET @Status = 'FAIL';
+    END
+
+    RETURN @Status;
+END;
+
+
+SELECT
+    S.Sid,
+    S.Sname,
+    M.Score,
+    dbo.fn_StudentStatus(M.Score) AS Status
+FROM Student S
+JOIN Marks M
+    ON S.Sid = M.Sid
+ORDER BY S.Sid;
+
+
+
+
