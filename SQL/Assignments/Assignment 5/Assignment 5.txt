@@ -1,0 +1,168 @@
+create database Assignment5
+
+use Assignment5
+
+CREATE TABLE EMP (
+    Empno     INT PRIMARY KEY,            
+    Ename     VARCHAR(20) NOT NULL,         
+    Job       VARCHAR(15),                  
+    Mgr       INT,                          
+    Hiredate  DATE,                         
+    Sal       INT,                
+    Comm      INT,                
+    Deptno    INT                          
+);
+
+INSERT INTO EMP(Empno, Ename, Job, Mgr, Hiredate, Sal, Comm, Deptno)
+VALUES
+(7369, 'SMITH',  'CLERK',     7902, '1980-12-17',  800,  NULL, 20),
+(7499, 'ALLEN',  'SALESMAN',  7698, '1981-02-20', 1600,   300, 30),
+(7521, 'WARD',   'SALESMAN',  7698, '1981-02-22', 1250,   500, 30),
+(7566, 'JONES',  'MANAGER',   7839, '1981-04-02', 2975,  NULL, 20),
+(7654, 'MARTIN', 'SALESMAN',  7698, '1981-09-28', 1250,  1400, 30),
+(7698, 'BLAKE',  'MANAGER',   7839, '1981-05-01', 2850,  NULL, 30),
+(7782, 'CLARK',  'MANAGER',   7839, '1981-06-09', 2450,  NULL, 10),
+(7788, 'SCOTT',  'ANALYST',   7566, '1987-04-19', 3000,  NULL, 20),
+(7839, 'KING',   'PRESIDENT', NULL, '1981-11-17', 5000,  NULL, 10),
+(7844, 'TURNER', 'SALESMAN',  7698, '1981-09-08', 1500,     0, 30),
+(7876, 'ADAMS',  'CLERK',     7788, '1987-05-23', 1100,  NULL, 20),
+(7900, 'JAMES',  'CLERK',     7698, '1981-12-03',  950,  NULL, 30),
+(7902, 'FORD',   'ANALYST',   7566, '1981-12-03', 3000,  NULL, 20),
+(7934, 'MILLER', 'CLERK',     7782, '1982-01-23', 1300,  NULL, 10);
+
+
+-- 1. Write a T-Sql based procedure to generate complete payslip of a given employee with respect to the following condition
+
+CREATE OR ALTER PROCEDURE sp_GeneratePayslip
+    @EmpNo INT
+AS
+BEGIN
+    -- Variable declarations
+    DECLARE
+        @EmpName    VARCHAR(50),
+        @Job        VARCHAR(30),
+        @DeptNo     INT,
+        @Salary     DECIMAL(10,2),
+        @HRA        DECIMAL(10,2),
+        @DA         DECIMAL(10,2),
+        @PF         DECIMAL(10,2),
+        @IT         DECIMAL(10,2),
+        @Deductions DECIMAL(10,2),
+        @GrossSalary DECIMAL(10,2),
+        @NetSalary  DECIMAL(10,2);
+
+    -- Fetch employee details
+    SELECT
+        @EmpName = ENAME,
+        @Job     = JOB,
+        @DeptNo  = DEPTNO,
+        @Salary  = SAL
+    FROM EMP
+    WHERE EMPNO = @EmpNo;
+
+    -- Validation
+    IF @Salary IS NULL
+    BEGIN
+        PRINT 'Employee not found';
+        RETURN;
+    END;
+
+    -- a) HRA as 10% of Salary
+    SET @HRA = @Salary * 0.10;
+
+    -- b) DA as 20% of Salary
+    SET @DA = @Salary * 0.20;
+
+    -- c) PF as 8% of Salary
+    SET @PF = @Salary * 0.08;
+
+    -- d) IT as 5% of Salary
+    SET @IT = @Salary * 0.05;
+
+    -- e) Deductions = PF + IT
+    SET @Deductions = @PF + @IT;
+
+    -- f) Gross Salary = Salary + HRA + DA
+    SET @GrossSalary = @Salary + @HRA + @DA;
+
+    -- g) Net Salary = Gross Salary - Deductions
+    SET @NetSalary = @GrossSalary - @Deductions;
+
+    -- Print Payslip
+    PRINT '----------------------------------------';
+    PRINT '              PAY SLIP                  ';
+    PRINT '----------------------------------------';
+    PRINT 'Employee No     : ' + CAST(@EmpNo AS VARCHAR);
+    PRINT 'Employee Name   : ' + @EmpName;
+    PRINT 'Job             : ' + @Job;
+    PRINT 'Department No   : ' + CAST(@DeptNo AS VARCHAR);
+    PRINT '----------------------------------------';
+    PRINT 'Basic Salary    : ' + CAST(@Salary AS VARCHAR);
+    PRINT 'HRA (10%)       : ' + CAST(@HRA AS VARCHAR);
+    PRINT 'DA (20%)        : ' + CAST(@DA AS VARCHAR);
+    PRINT '----------------------------------------';
+    PRINT 'Gross Salary    : ' + CAST(@GrossSalary AS VARCHAR);
+    PRINT '----------------------------------------';
+    PRINT 'PF (8%)         : ' + CAST(@PF AS VARCHAR);
+    PRINT 'IT (5%)         : ' + CAST(@IT AS VARCHAR);
+    PRINT 'Deductions      : ' + CAST(@Deductions AS VARCHAR);
+    PRINT '----------------------------------------';
+    PRINT 'Net Salary      : ' + CAST(@NetSalary AS VARCHAR);
+    PRINT '----------------------------------------';
+END;
+
+
+EXEC sp_GeneratePayslip 7499;
+
+
+-- 2Create a trigger to restrict data manipulation on EMP table during General holidays.
+-- Display the error message like “Due to Independence day you cannot manipulate data” 
+-- or "Due To Diwali", you cannot manipulate" etc-- ote: Create holiday table with
+-- (holiday_date,Holiday_name). Store at least 4 holiday details. try to match the dates and stop manipulation 
+
+
+
+
+-- Create the HOLIDAY Table
+
+
+CREATE TABLE Holiday
+(
+    holiday_date DATE PRIMARY KEY,
+    holiday_name VARCHAR(50)
+);
+
+-- Insert Holiday Records
+
+INSERT INTO Holiday VALUES 
+('2026-01-26', 'Republic Day'),
+('2026-08-15', 'Independence Day'),
+('2026-10-31', 'Diwali'),
+('2026-12-25', 'Christmas');
+
+-- Create Trigger on EMP Table
+
+CREATE OR ALTER TRIGGER trg_RestrictEmpOnHoliday
+ON EMP
+FOR INSERT, UPDATE, DELETE
+AS
+BEGIN
+    DECLARE @HolidayName VARCHAR(50);
+
+    -- Check if today is a holiday
+    SELECT @HolidayName = holiday_name
+    FROM Holiday
+    WHERE holiday_date = CAST(GETDATE() AS DATE);
+
+    -- If holiday, restrict operation
+    IF @HolidayName IS NOT NULL
+    BEGIN
+        RAISERROR (
+            'Due to %s you cannot manipulate data on EMP table.',
+            16, 1, @HolidayName
+        );
+        ROLLBACK TRANSACTION;
+    END
+END;
+
+INSERT INTO EMP VALUES (8000, 'TEST', 'CLERK', NULL, GETDATE(), 1000, NULL, 10);
