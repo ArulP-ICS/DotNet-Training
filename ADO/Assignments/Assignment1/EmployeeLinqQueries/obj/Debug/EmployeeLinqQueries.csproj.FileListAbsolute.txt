@@ -1,0 +1,7 @@
+C:\Users\arulp\ICS Training 2026\DotNet\Assignments\Assignment8\EmployeeLinqQueries\bin\Debug\EmployeeLinqQueries.exe.config
+C:\Users\arulp\ICS Training 2026\DotNet\Assignments\Assignment8\EmployeeLinqQueries\bin\Debug\EmployeeLinqQueries.exe
+C:\Users\arulp\ICS Training 2026\DotNet\Assignments\Assignment8\EmployeeLinqQueries\bin\Debug\EmployeeLinqQueries.pdb
+C:\Users\arulp\ICS Training 2026\DotNet\Assignments\Assignment8\EmployeeLinqQueries\obj\Debug\EmployeeLinqQueries.csproj.AssemblyReference.cache
+C:\Users\arulp\ICS Training 2026\DotNet\Assignments\Assignment8\EmployeeLinqQueries\obj\Debug\EmployeeLinqQueries.csproj.CoreCompileInputs.cache
+C:\Users\arulp\ICS Training 2026\DotNet\Assignments\Assignment8\EmployeeLinqQueries\obj\Debug\EmployeeLinqQueries.exe
+C:\Users\arulp\ICS Training 2026\DotNet\Assignments\Assignment8\EmployeeLinqQueries\obj\Debug\EmployeeLinqQueries.pdb
