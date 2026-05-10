@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Independence Day Calculation</title>
+</head>
+
+<!-- 4. Write a JavaScript program that calculates the number of days left until Independence Day by comparing the current date with August 15th of the current year.
+    If today is after August 15th, it calculates the days until next year's Independence Day. The difference in days is then logged to the console.-->
+<body>
+    <p id="demo"></p>
+    <script>
+        function daysUntilIndependenceDay() {
+            const today = new Date();
+            let year = today.getFullYear();
+
+            let independenceDay = new Date(year, 7, 15);
+
+            if (today > independenceDay) {
+                independenceDay = new Date(year + 1, 7, 15);
+            }
+
+            const oneDay = 24 * 60 * 60 * 1000;
+            const daysLeft = Math.ceil(
+                (independenceDay - today) / oneDay
+            );
+
+            document.getElementById("demo").innerHTML = daysLeft;
+        }
+        daysUntilIndependenceDay();
+    </script>
+</body>
+</html>

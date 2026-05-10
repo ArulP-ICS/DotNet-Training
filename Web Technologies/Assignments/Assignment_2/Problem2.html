@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+
+<!-- 2. Write a JavaScript program to construct the following pattern, using a nested for loop.
+
+*
+* *
+* * *
+* * * *
+* * * * * -->
+<body>
+    <p id="pattern"></p>
+    <script>
+        let output = "";
+
+        for (let i = 1; i <= 5; i++) {
+            for (let j = 1; j <= i; j++) {
+                output += "* ";
+            }
+            output += "\n";
+        }
+
+        document.getElementById("pattern").innerText = output;
+
+    </script>
+</body>
+</html>
