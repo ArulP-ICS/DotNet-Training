@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Button Click Event</title>
+    <style>
+        button {
+            background-color: lightblue;
+            padding: 10px 20px;
+            border: 1px solid black;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Click the button</h3>
+
+    <button id="myButton">Click Me</button>
+
+    <script>
+        function showMessage() {
+            console.log("Button was clicked");
+        }
+        document.getElementById("myButton").onclick = showMessage;
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Hide Odd Rows</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <h3>Student Data</h3>
+
+
+    <script>
+        $(function () {
+            $("tr:odd").hide();
+        });
+    </script>
+
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Arul</td>
+            <td>85</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Kiran</td>
+            <td>78</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Ravi</td>
+            <td>92</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Priya</td>
+            <td>88</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Anu</td>
+            <td>76</td>
+        </tr>
+
+
+    </table>
+</body>
+</html>

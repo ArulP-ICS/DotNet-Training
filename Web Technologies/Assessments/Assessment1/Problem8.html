@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Input Change Event</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <h3>Enter text:</h3>
+
+    <input type="text">
+
+    <script>
+        $("input").change(function () {
+            $("body").append("<p>Input value Changed</p>");
+        });
+    </script>
+
+</body>
+</html>
