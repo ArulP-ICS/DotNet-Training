@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\addeditmenu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:addeditmenu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|c:\\users\\arulp\\ics training 2026\\asp_webforms\\assessments\\foodordermanagement\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\menudetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:menudetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\menulist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:menulist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\menudetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:menudetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\addeditmenu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:addeditmenu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\menulist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:menulist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|c:\\users\\arulp\\ics training 2026\\asp_webforms\\assessments\\foodordermanagement\\logout.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:logout.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|c:\\users\\arulp\\ics training 2026\\asp_webforms\\assessments\\foodordermanagement\\menulist.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:menulist.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|c:\\users\\arulp\\ics training 2026\\asp_webforms\\assessments\\foodordermanagement\\addeditmenu.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:addeditmenu.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|c:\\users\\arulp\\ics training 2026\\asp_webforms\\assessments\\foodordermanagement\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|c:\\users\\arulp\\ics training 2026\\asp_webforms\\assessments\\foodordermanagement\\orderstats.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{547794F6-32A6-4D41-B5DB-9E0823AE05E2}|FoodOrderManagement.csproj|solutionrelative:orderstats.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\Assessment1\\Global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MenuList.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\MenuList.aspx.designer.cs",
+              "RelativeDocumentMoniker": "MenuList.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\MenuList.aspx.designer.cs",
+              "RelativeToolTip": "MenuList.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T06:17:29.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Logout.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Logout.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Logout.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Logout.aspx.designer.cs",
+              "RelativeToolTip": "Logout.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T06:36:02.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddEditMenu.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\AddEditMenu.aspx.designer.cs",
+              "RelativeDocumentMoniker": "AddEditMenu.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\AddEditMenu.aspx.designer.cs",
+              "RelativeToolTip": "AddEditMenu.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T06:11:18.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Logout.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Logout.aspx.cs",
+              "RelativeDocumentMoniker": "Logout.aspx.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Logout.aspx.cs",
+              "RelativeToolTip": "Logout.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T06:06:42.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Logout.aspx",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Logout.aspx",
+              "RelativeDocumentMoniker": "Logout.aspx",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Logout.aspx",
+              "RelativeToolTip": "Logout.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-27T06:06:36.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderStats.aspx",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\OrderStats.aspx",
+              "RelativeDocumentMoniker": "OrderStats.aspx",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\OrderStats.aspx",
+              "RelativeToolTip": "OrderStats.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-27T06:05:31.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\Assessment1\\Global.asax.cs",
+              "RelativeDocumentMoniker": "..\\Assessment1\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\Assessment1\\Global.asax.cs",
+              "RelativeToolTip": "..\\Assessment1\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T06:03:08.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T06:02:34.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuDetails.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\MenuDetails.aspx.cs",
+              "RelativeDocumentMoniker": "MenuDetails.aspx.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\MenuDetails.aspx.cs",
+              "RelativeToolTip": "MenuDetails.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T06:01:21.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuDetails.aspx",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\MenuDetails.aspx",
+              "RelativeDocumentMoniker": "MenuDetails.aspx",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\MenuDetails.aspx",
+              "RelativeToolTip": "MenuDetails.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-27T06:00:26.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddEditMenu.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\AddEditMenu.aspx.cs",
+              "RelativeDocumentMoniker": "AddEditMenu.aspx.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\AddEditMenu.aspx.cs",
+              "RelativeToolTip": "AddEditMenu.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T05:59:36.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddEditMenu.aspx",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\AddEditMenu.aspx",
+              "RelativeDocumentMoniker": "AddEditMenu.aspx",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\AddEditMenu.aspx",
+              "RelativeToolTip": "AddEditMenu.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-27T05:58:28.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuList.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\MenuList.aspx.cs",
+              "RelativeDocumentMoniker": "MenuList.aspx.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\MenuList.aspx.cs",
+              "RelativeToolTip": "MenuList.aspx.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T05:57:55.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuList.aspx",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\MenuList.aspx",
+              "RelativeDocumentMoniker": "MenuList.aspx",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\MenuList.aspx",
+              "RelativeToolTip": "MenuList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-27T05:56:26.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Login.aspx.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Login.aspx.cs",
+              "RelativeToolTip": "Login.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T05:55:51.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Login.aspx",
+              "RelativeDocumentMoniker": "Login.aspx",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Login.aspx",
+              "RelativeToolTip": "Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-27T05:54:51.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Site.Master",
+              "RelativeDocumentMoniker": "Site.Master",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Site.Master",
+              "RelativeToolTip": "Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-27T05:53:20.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\ASP_WebForms\\Assessments\\FoodOrderManagement\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-27T05:52:43.216Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
