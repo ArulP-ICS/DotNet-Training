@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\views\\contact\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|solutionrelative:views\\contact\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\validators\\numericidattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|solutionrelative:validators\\numericidattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\repositories\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|solutionrelative:repositories\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|solutionrelative:repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\models\\contactcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|solutionrelative:models\\contactcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|c:\\users\\arulp\\ics training 2026\\mvc\\assignments\\assignment1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|c:\\users\\arulp\\ics training 2026\\mvc\\assignments\\assignment1\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85CDF863-F04D-4500-8D79-FD69C8A09F28}|Assignment1.csproj|solutionrelative:views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 107,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T12:07:10.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Views\\Contact\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contact\\Create.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Views\\Contact\\Create.cshtml",
+              "RelativeToolTip": "Views\\Contact\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T06:23:43.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "Views\\Contact\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T06:22:24.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NumericIdAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Validators\\NumericIdAttribute.cs",
+              "RelativeDocumentMoniker": "Validators\\NumericIdAttribute.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Validators\\NumericIdAttribute.cs",
+              "RelativeToolTip": "Validators\\NumericIdAttribute.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T05:56:54.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Repositories\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ContactRepository.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Repositories\\ContactRepository.cs",
+              "RelativeToolTip": "Repositories\\ContactRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T05:56:00.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Repositories\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IContactRepository.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Repositories\\IContactRepository.cs",
+              "RelativeToolTip": "Repositories\\IContactRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T05:55:40.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactContext.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Models\\ContactContext.cs",
+              "RelativeDocumentMoniker": "Models\\ContactContext.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Models\\ContactContext.cs",
+              "RelativeToolTip": "Models\\ContactContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T05:53:30.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Models\\Contact.cs",
+              "RelativeToolTip": "Models\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T05:49:36.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\arulp\\ICS Training 2026\\MVC\\Assignments\\Assignment1\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T05:49:01.216Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
