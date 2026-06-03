@@ -1,0 +1,20 @@
+﻿@model Problem2.Models.Movie
+
+<h2>Delete Movie</h2>
+
+<p>
+    Are you sure you want to delete
+    <b>@Model.MovieName</b> ?
+</p>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.Mid)
+
+    <input type="submit"
+           value="Delete"
+           class="btn btn-danger" />
+
+    @Html.ActionLink("Cancel", "Index", null,
+    new { @class = "btn btn-secondary" })
+}

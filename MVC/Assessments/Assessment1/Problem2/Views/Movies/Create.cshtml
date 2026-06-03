@@ -1,0 +1,34 @@
+﻿@model Problem2.Models.Movie
+
+<h2>Create Movie</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        <label>Movie Name</label>
+        @Html.TextBoxFor(m => m.MovieName,
+        new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Director Name</label>
+        @Html.TextBoxFor(m => m.DirectorName,
+        new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Date Of Release</label>
+        @Html.TextBoxFor(m => m.DateOfRelease,
+        "{0:yyyy-MM-dd}",
+        new { @class = "form-control", type = "date" })
+    </div>
+
+    <br />
+
+    <input type="submit"
+           value="Save"
+           class="btn btn-success" />
+
+    @Html.ActionLink("Back", "Index", null,
+    new { @class = "btn btn-secondary" })
+}

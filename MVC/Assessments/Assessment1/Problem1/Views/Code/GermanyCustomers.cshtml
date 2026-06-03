@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Problem1.Models.Customer>
+
+@{
+    ViewBag.Title = "Germany Customers";
+}
+
+<h2 style="color:blue;">Customers From Germany</h2>
+
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+    <tr style="background-color:lightgray;">
+        <th>Customer ID</th>
+        <th>Company Name</th>
+        <th>Contact Name</th>
+        <th>City</th>
+        <th>Country</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.CustomerID</td>
+            <td>@item.CompanyName</td>
+            <td>@item.ContactName</td>
+            <td>@item.City</td>
+            <td>@item.Country</td>
+        </tr>
+    }
+</table>
+
+<h4>Total Customers: @Model.Count()</h4>
